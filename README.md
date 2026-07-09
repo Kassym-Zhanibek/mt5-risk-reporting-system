@@ -2,95 +2,120 @@
 
 ## Overview
 
-Python-based analytics and reporting platform integrated with MetaTrader 5.
+MT5 Trade Analytics & Risk Reporting System is a Python-based reporting platform designed to automate trade performance analysis and risk reporting for MetaTrader 5 traders.
 
-The system automatically imports trading history from MT5, calculates performance and risk metrics, and generates Excel dashboards for trading analysis.
+The system automatically imports trade history from MT5, processes performance metrics, analyzes risk exposure, and generates Excel dashboards for trading evaluation.
 
 ---
 
-## Features
+## Key Features
 
-- Automatic MT5 trade import
+- Automatic trade import from MetaTrader 5
+- Trade journal generation
 - Performance analytics
 - Risk analytics
 - Equity Curve generation
 - Drawdown analysis
 - Win Rate calculation
 - Profit Factor calculation
-- Expectancy analysis
+- Expectancy calculation
 - Sharpe Ratio calculation
+- Average holding time analysis
 - Session-based analytics
-- News vs Regular Trades comparison
+- News vs Regular Trade comparison
 - Automated Excel dashboard generation
 
 ---
 
-## Architecture
+## System Architecture
 
+```text
 MetaTrader 5
-↓
-Python Data Engine
-↓
-Risk Analytics Module
-↓
-Excel Dashboard
+     ↓
+Python Data Processing Engine
+     ↓
+Trade Analytics & Risk Module
+     ↓
+Excel Dashboard & Reports
+```
 
 ---
 
-## Dashboard Metrics
+## Performance Metrics
+
+The system automatically calculates:
 
 - Total P&L
 - Win Rate
 - Profit Factor
-- Average RR
+- Average Risk-to-Reward Ratio
 - Expectancy
 - Maximum Drawdown
 - Sharpe Ratio
 - Average Holding Time
+- Consecutive Wins
+- Consecutive Losses
 
 ---
 
-## Analytics
+## Trading Analytics
 
 ### Session Analytics
+
+Performance is analyzed across:
 
 - London Open
 - New York Open
 - London Close
-- Outside Session
+- Outside Trading Sessions
 
-### Trade Categories
+### Trade Classification
+
+Trades are categorized into:
 
 - News Trades
 - Regular Trades
 
----
-
-## Screenshots
-
-(Add screenshots here)
+This allows performance comparison under different market conditions.
 
 ---
 
-## Technologies
-
-- Python
-- MetaTrader 5
-- Excel
-- Pandas
-- Trading Analytics
-- Risk Management
 ## Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/Dashboard.png)
+
+---
 
 ## Trade Journal
 
-![Journal](screenshots/journal.png)
+![Journal](screenshots/Journal.png)
 
-## Charts
+---
 
-![Charts](screenshots/charts.png)
+## Charts & Analytics
 
+![Charts](screenshots/Charts.png)
 
-![Charts](C:\Users\Admin\OneDrive\Документы\screenshots)
+---
+
+## Technologies Used
+
+- Python
+- MetaTrader 5
+- Pandas
+- Excel
+- Trading Analytics
+- Risk Management
+
+---
+
+## Future Improvements
+
+Planned enhancements:
+
+- Monte Carlo Simulation
+- Risk of Ruin Analysis
+- Value at Risk (VaR)
+- PDF Report Generation
+- Streamlit Web Dashboard
+- Multi-Asset Support
