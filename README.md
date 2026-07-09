@@ -80,16 +80,17 @@ Excel Dashboard
 - Pandas
 - Trading Analytics
 - Risk Management
-
-
 ## Dashboard
 
-![Dashboard]("C:\Users\Admin\OneDrive\Документы\screenshots\Dashboard.png")
+![Dashboard](screenshots/dashboard.png)
 
 ## Trade Journal
 
-![Journal]("C:\Users\Admin\OneDrive\Документы\screenshots\Journal.png")
+![Journal](screenshots/journal.png)
 
 ## Charts
+
+![Charts](screenshots/charts.png)
+
 
 ![Charts](C:\Users\Admin\OneDrive\Документы\screenshots)
