@@ -84,12 +84,12 @@ Excel Dashboard
 
 ## Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard]("C:\Users\Admin\OneDrive\Документы\screenshots\Dashboard.png")
 
 ## Trade Journal
 
-![Journal](screenshots/journal.png)
+![Journal]("C:\Users\Admin\OneDrive\Документы\screenshots\Journal.png")
 
 ## Charts
 
-![Charts](screenshots/charts.png)
+![Charts](C:\Users\Admin\OneDrive\Документы\screenshots)
