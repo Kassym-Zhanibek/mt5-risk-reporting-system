@@ -80,3 +80,16 @@ Excel Dashboard
 - Pandas
 - Trading Analytics
 - Risk Management
+
+
+## Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+## Trade Journal
+
+![Journal](screenshots/journal.png)
+
+## Charts
+
+![Charts](screenshots/charts.png)
